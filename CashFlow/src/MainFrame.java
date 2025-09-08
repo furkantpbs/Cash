@@ -4,7 +4,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.time.LocalDate;
 import java.util.List;
-
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -27,7 +26,6 @@ public class MainFrame extends JFrame {
        private HareketDAO hareketDAO;
        private DefaultTableModel tableModel;
        private JButton silbtn;
-	
 	
        public MainFrame() {
     	   setTitle("Finans Takip Uygulaması");
